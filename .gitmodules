@@ -1,3 +1,6 @@
 [submodule "vllm"]
 	path = vllm
 	url = https://github.com/bins-dev/vllm.git
+[submodule "llama.cpp"]
+	path = llama.cpp
+	url = https://github.com/ggml-org/llama.cpp.git
