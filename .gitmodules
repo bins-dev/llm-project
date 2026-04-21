@@ -3,4 +3,4 @@
 	url = https://github.com/bins-dev/vllm.git
 [submodule "llama.cpp"]
 	path = llama.cpp
-	url = https://github.com/ggml-org/llama.cpp.git
+	url = https://github.com/bins-dev/llama.cpp.git
