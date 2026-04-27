@@ -1,9 +1,11 @@
 [submodule "vllm"]
 	path = vllm
 	url = https://github.com/bins-dev/vllm.git
+	branch = main
 [submodule "llama.cpp"]
 	path = llama.cpp
 	url = https://github.com/bins-dev/llama.cpp.git
 [submodule "openclaw"]
 	path = openclaw
 	url = https://github.com/bins-dev/openclaw.git
+	branch = main
