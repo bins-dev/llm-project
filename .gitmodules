@@ -9,3 +9,7 @@
 	path = openclaw
 	url = https://github.com/bins-dev/openclaw.git
 	branch = main
+[submodule "hermes-agent"]
+	path = hermes-agent
+	url = https://github.com/bins-dev/hermes-agent.git
+	branch = main
