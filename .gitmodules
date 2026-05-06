@@ -13,3 +13,6 @@
 	path = hermes-agent
 	url = https://github.com/bins-dev/hermes-agent.git
 	branch = main
+[submodule "comfy-ui"]
+	path = comfy-ui
+	url = https://github.com/bins-dev/comfy-ui.git
