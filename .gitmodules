@@ -16,3 +16,4 @@
 [submodule "comfy-ui"]
 	path = comfy-ui
 	url = https://github.com/bins-dev/comfy-ui.git
+	branch = master
