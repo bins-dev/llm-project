@@ -22,3 +22,7 @@
 	path = vllm-omni
 	url = https://github.com/bins-dev/vllm-omni.git
 	branch = main
+[submodule "dify"]
+	path = dify
+	url = https://github.com/bins-dev/dify.git
+	branch = main

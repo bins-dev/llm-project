@@ -1,0 +1,10 @@
+#!/bin/bash
+REPO_NAME=dify
+DEFAULT_BRANCH=main
+cd ${REPO_NAME}
+git checkout ${DEFAULT_BRANCH}
+if ! git remote | grep -q "^${REPO_NAME}\$"; then
+	git remote add ${REPO_NAME} https://github.com/langgenius/dify.git
+fi
+git pull ${REPO_NAME} ${DEFAULT_BRANCH} && git push origin ${DEFAULT_BRANCH}
+git fetch ${REPO_NAME} --tags ${DEFAULT_BRANCH} -f && git push origin ${DEFAULT_BRANCH} --tags -f
