@@ -18,3 +18,7 @@
 	path = comfy-ui
 	url = https://github.com/bins-dev/comfy-ui.git
 	branch = master
+[submodule "vllm-omni"]
+	path = vllm-omni
+	url = https://github.com/bins-dev/vllm-omni.git
+	branch = main
