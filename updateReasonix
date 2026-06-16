@@ -1,0 +1,10 @@
+#!/bin/bash
+REPO_NAME=reasonix
+DEFAULT_BRANCH=master
+cd ${REPO_NAME}
+git checkout ${DEFAULT_BRANCH}
+if ! git remote | grep -q "^${REPO_NAME}\$"; then
+	git remote add ${REPO_NAME} https://github.com/esengine/DeepSeek-Reasonix.git
+fi
+git pull ${REPO_NAME} main-v2 && git push origin ${DEFAULT_BRANCH}
+git fetch ${REPO_NAME} --tags main-v2 -f && git push origin ${DEFAULT_BRANCH} --tags -f

@@ -26,3 +26,7 @@
 	path = dify
 	url = https://github.com/bins-dev/dify.git
 	branch = main
+[submodule "reasonix"]
+	path = reasonix
+	url = https://github.com/bins-dev/reasonix.git
+	branch = master
