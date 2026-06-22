@@ -30,3 +30,7 @@
 	path = reasonix
 	url = https://github.com/bins-dev/reasonix.git
 	branch = master
+[submodule "opencode"]
+	path = opencode
+	url = https://github.com/bins-dev/opencode.git
+	branch = master
